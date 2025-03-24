@@ -1,0 +1,11 @@
+# Ignore virtual environments
+yolo_env/
+
+# Ignore large model weights
+*.pt
+*.pth
+*.h5
+
+# Ignore Torch and OpenCV library files
+*/torch/lib/*
+*/cv2/cv2.pyd
